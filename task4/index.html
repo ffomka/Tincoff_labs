@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="https://acdn.tinkoff.ru/params/common_front/resourses/icons/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dom</title>
+</head>
+
+<body>
+  <header class="header-wrapper flex space-between align-center">
+    <p class="roboto font-13 dark-main" id='profile'></p>
+    <button id="handOutBtn" class="btn-wrapper pointer roboto height-24px font-15px">show one beautiful card</button>
+  </header>
+  <main class="flex row">
+    <div class="form-wrap half-wrapper flex col gap-20px">
+      <span class="half-wrapper__title roboto dark-main font-20px">create/edit the card</span>
+      <div class="flex col gap-10px">
+        <input class="input-form roboto font-15px" placeholder="title" name="name"></input>
+        <input class="input-form roboto font-15px off-horizontal-resize" placeholder="description" name="description"></input>
+        <input class="input-form roboto font-15px" placeholder="link to img" name="imgLink"></input>
+        <input class="input-form roboto font-15px" placeholder="code" name="id"></input>
+        <input class="input-form roboto font-15px" placeholder="supplier" name="provider"></input>
+      </div>
+      <div class="flex align-center space-between form-footer">
+        <button class="form-footer__btn btn-wrapper pointer" id="cancelBtn" onclick="clearForm()">cancel</button>
+        <button class="form-footer__btn btn-wrapper pointer" id="deleteBtn" onclick="deleteCard(event)">delete</button>
+        <button class="form-footer__btn btn-wrapper pointer" id="approveBtn" onclick="editCard(event)">ok</button>
+      </div>
+    </div>
+    <div class="cards-list flex align-start">
+      <div id="loader" class="preloader-5 invisible"></div>
+    </div>
+  </main>
+  <script src="scripts/cards-list.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
