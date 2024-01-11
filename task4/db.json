@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "M4A1-S ",
+      "src": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO1gb-Gw_alIITfn2xZ_MhwmOz--InxgUG5lB89IT6mOtLAIFNvYQrRqFC9l-vq0MO9vZ7OzXYx6XNx43mMnUGx0EsZO-w506GACQLJbw9g1os/360fx360f",
+      "desc": "nice",
+      "code": 1,
+      "provider": "Nightmare"
+    },
+    {
+      "id": "2",
+      "name": "music",
+      "src": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXO9B9WLbU5oA9OA1rRS_Ko6J-CHQ1yJ1VVt-7yLl42i_fJKTxHv4i3ldXSw6OmN-OHkmkFucBw2rqYp9i7mFqzYilkTt8/330x192?allow_animated=1",
+      "desc": "slash ba-bang",
+      "code": 2,
+      "provider": "valve corp"
+    }
+  ],
+  "profile": {
+    "name": "Фомин Илья",
+    "group": "6409"
+  }
+}
